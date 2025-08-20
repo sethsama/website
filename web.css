@@ -460,7 +460,7 @@ p, span, h1, h2, h3, ul, li {
     color: white;
 }
 #snoopy{
-    width: 200px;
+    width: 170px;
     opacity: 0;
     transition: opacity 5s ease;
 }
@@ -481,3 +481,4 @@ p, span, h1, h2, h3, ul, li {
 #leftandright::-webkit-scrollbar-thumb{
     background-color: black;
 }
+
