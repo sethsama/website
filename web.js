@@ -109,8 +109,8 @@ openBtn3.addEventListener("click", () => {
 closeBtn3.addEventListener("click", () => {
   modal3.classList.add("closing")
   modal3.classList.remove("open");
-  noBtn.style.top =180 + "px";
-  noBtn.style.left = 400 + "px";
+  noBtn.style.top = 25 + "%";
+  noBtn.style.right = 30 + "%";
 
   modal3.addEventListener("transitionend", function handler() {
     modal3.classList.remove("closing"); // reset
@@ -149,7 +149,7 @@ function runBtn(){
   const randomY = Math.floor(Math.random() * MaxY);
 
   noBtn.style.top = randomY + "px"
-  noBtn.style.left = randomX + "px"
+  noBtn.style.right = randomX + "px"
 
   console.log(MaxX)
 }
