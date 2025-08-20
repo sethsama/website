@@ -436,33 +436,37 @@ p, span, h1, h2, h3, ul, li {
 #tut{
     margin-top: 10%;
 }
+#yesNno{
+    position: relative;
+}
 #noBtn{
-    position: absolute;
-    top: 170px;       /* initial pixel position */
-    left: 400px;      /* initial pixel position */
+    position: fixed;
+    top: 25%;       /* initial pixel position */
+    right: 30%;      /* initial pixel position */
     transition: all 0.3s ease; /* smooth movement */
     transform: scaleX(-1);
 }
 #yesBtn{
     position: fixed;
     top: 25%;
-    left: 35%;
+    left: 30%;
 }
 #yesBtn.liked{
     color: blueviolet;
 }
 #troll{
     position: absolute;
-    top: 170px;       /* initial pixel position */
-    left: 425px;      /* initial pixel position */
+    top: 25%;       /* initial pixel position */
+    right: 35%;      /* initial pixel position */
     font-size: 15px;
     font-family: myFontRobo;
     color: white;
 }
 #snoopy{
-    width: 170px;
+    width: 20%;
     opacity: 0;
     transition: opacity 5s ease;
+    object-fit: contain
 }
 #snoopy.show{
     opacity: 1;
@@ -481,4 +485,3 @@ p, span, h1, h2, h3, ul, li {
 #leftandright::-webkit-scrollbar-thumb{
     background-color: black;
 }
-
