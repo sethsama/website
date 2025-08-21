@@ -182,5 +182,3 @@ function yellowfy() {
   }
 }
 theMoon.addEventListener("click", yellowfy)
-
-
